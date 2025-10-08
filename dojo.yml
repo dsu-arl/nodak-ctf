@@ -53,6 +53,10 @@ modules:
           challenge: icky-input 
   - id: forensics
     name: Forensics Part 1
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+
   - id: forensics-2
     name: Forensics Part 2
     challenges:
