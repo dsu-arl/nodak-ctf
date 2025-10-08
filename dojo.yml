@@ -53,6 +53,19 @@ modules:
           challenge: icky-input 
   - id: forensics
     name: Forensics Part 1
+    challenges:
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneral
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneralii
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: ibeenwalkin
   - id: forensics-2
     name: Forensics Part 2
     challenges:
