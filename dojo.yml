@@ -31,7 +31,7 @@ modules:
       dojo: cyber-security~59368da7
       module: encoding
   - id: pwn-re-1
-    name: PWN/RE Part 1
+    name: PWN/RE
     challenges:
       - import:
           dojo: cyber-security~59368da7
@@ -58,7 +58,7 @@ modules:
           module: pwn
           challenge: icky-input 
   - id: forensics
-    name: Forensics Part 1
+    name: Forensics
     challenges:
       - import:
           dojo: cyber-security~59368da7
