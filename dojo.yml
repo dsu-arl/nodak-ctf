@@ -10,20 +10,26 @@ modules:
       dojo: linux~cf6cc015 
       module: linux-basics
   - import:
-      dojo: linux~cf6cc015 
-      module: linux-admin
+      dojo: python-programming~7745aa00
+      module: input-and-output
   - import:
       dojo: python-programming~7745aa00
       module: math-operators
   - import:
-      dojo: cyber-security~59368da7
-      module: encoding
+      dojo: python-programming~7745aa00
+      module: conditionals
+  - import:
+      dojo: python-programming~7745aa00
+      module: loops
   - import:
       dojo: cyber-security~59368da7
       module: osint
   - import:
       dojo: cyber-security~59368da7
       module: web
+  - import:
+      dojo: cyber-security~59368da7
+      module: encoding
   - id: pwn-re-1
     name: PWN/RE Part 1
     challenges:
@@ -53,21 +59,6 @@ modules:
           challenge: icky-input 
   - id: forensics
     name: Forensics Part 1
-    challenges:
-      - import:
-          dojo: dsu-homecoming~064fa793
-          module: forensics
-          challenge: findthegeneral
-      - import:
-          dojo: dsu-homecoming~064fa793
-          module: forensics
-          challenge: findthegeneralii
-      - import:
-          dojo: dsu-homecoming~064fa793
-          module: forensics
-          challenge: ibeenwalkin
-  - id: forensics-2
-    name: Forensics Part 2
     challenges:
       - import:
           dojo: cyber-security~59368da7
@@ -101,5 +92,13 @@ modules:
           dojo: cyber-security~59368da7
           module: forensics
           challenge: hidden-treasures-in-the-picture
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneral
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneralii
 
 type: event
