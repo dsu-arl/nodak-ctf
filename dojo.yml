@@ -13,6 +13,9 @@ modules:
       dojo: linux~cf6cc015 
       module: linux-admin
   - import:
+      dojo: python-programming~7745aa00
+      module: math-operators
+  - import:
       dojo: cyber-security~59368da7
       module: encoding
   - import:
