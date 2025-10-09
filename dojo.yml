@@ -41,6 +41,7 @@ modules:
           dojo: python-programming~7745aa00
           module: input-and-output
           challenge: knowledgecheckii-io
+        name: Knowledge Check II (Input/Output)
       - import:
           dojo: python-programming~7745aa00
           module: math-operators 
@@ -61,10 +62,12 @@ modules:
           dojo: python-programming~7745aa00
           module: math-operators 
           challenge: knowledgechecki-math
+        name: Knowledge Check I (Math)
       - import:
           dojo: python-programming~7745aa00
           module: math-operators 
           challenge: knowledgecheckii-math
+        name: Knowledge Check II (Math)
       - import:
           dojo: python-programming~7745aa00
           module: conditionals 
@@ -89,6 +92,7 @@ modules:
           dojo: python-programming~7745aa00
           module: conditionals 
           challenge: knowledgechecki-conditionals 
+        name: Knowledge Check I (Conditionals)
       - import:
           dojo: python-programming~7745aa00
           module: loops 
@@ -109,6 +113,7 @@ modules:
           dojo: python-programming~7745aa00
           module: loops 
           challenge: knowledgechecki-loops 
+        name: Knowledge Check I (Loops)
   - import:
       dojo: cyber-security~59368da7
       module: osint
