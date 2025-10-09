@@ -36,7 +36,7 @@ modules:
           dojo: python-programming~7745aa00
           module: input-and-output
           challenge: knowledgechecki-io
-          name: Knowledge Check I (Input/Output)
+        name: Knowledge Check I (Input/Output)
       - import:
           dojo: python-programming~7745aa00
           module: input-and-output
