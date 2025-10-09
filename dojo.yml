@@ -35,11 +35,11 @@ modules:
       - import:
           dojo: python-programming~7745aa00
           module: input-and-output
-          challenge: knowledgechecki
+          challenge: knowledgechecki-io
       - import:
           dojo: python-programming~7745aa00
           module: input-and-output
-          challenge: knowledgecheckii
+          challenge: knowledgecheckii-io
       - import:
           dojo: python-programming~7745aa00
           module: math-operators 
@@ -56,14 +56,14 @@ modules:
           dojo: python-programming~7745aa00
           module: math-operators 
           challenge: comparison
-            #- import:
-            #dojo: python-programming~7745aa00
-            #module: math-operators 
-            #challenge: knowledgechecki
-            #- import:
-            #dojo: python-programming~7745aa00
-            #module: math-operators 
-            #challenge: knowledgecheckii
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: knowledgechecki-math
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: knowledgecheckii-math
       - import:
           dojo: python-programming~7745aa00
           module: conditionals 
@@ -84,10 +84,10 @@ modules:
           dojo: python-programming~7745aa00
           module: conditionals 
           challenge: logical-operators 
-            #- import:
-            #dojo: python-programming~7745aa00
-            #module: conditionals 
-            #challenge: knowledgechecki 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: knowledgechecki-conditionals 
       - import:
           dojo: python-programming~7745aa00
           module: loops 
@@ -104,10 +104,10 @@ modules:
           dojo: python-programming~7745aa00
           module: loops 
           challenge: for 
-            #- import:
-            #dojo: python-programming~7745aa00
-            #module: loops 
-            #challenge: knowledgechecki 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: knowledgechecki-loops 
   - import:
       dojo: cyber-security~59368da7
       module: osint
