@@ -1,5 +1,5 @@
 id: north-dakota-ctf
-name: North Dakota CTF
+name: North Dakota CTF - FORK
 award:
   emoji: 🦬
 modules: 
@@ -9,18 +9,105 @@ modules:
   - import:
       dojo: linux~cf6cc015 
       module: linux-basics
-  - import:
-      dojo: python-programming~7745aa00
-      module: input-and-output
-  - import:
-      dojo: python-programming~7745aa00
-      module: math-operators
-  - import:
-      dojo: python-programming~7745aa00
-      module: conditionals
-  - import:
-      dojo: python-programming~7745aa00
-      module: loops
+  - id: python
+    name: Python Programming
+    challenges:
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: printing
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: variables
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: format-print
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: user-input
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: type-casting
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: knowledgechecki
+      - import:
+          dojo: python-programming~7745aa00
+          module: input-and-output
+          challenge: knowledgecheckii
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: math
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: floor-division
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: geometry
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: comparison
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: knowledgechecki
+      - import:
+          dojo: python-programming~7745aa00
+          module: math-operators 
+          challenge: knowledgecheckii
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: if-statements 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: if-else-statements 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: nested 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: else-if-blocks 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: logical-operators 
+      - import:
+          dojo: python-programming~7745aa00
+          module: conditionals 
+          challenge: knowledgechecki 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: while 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: lists 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: range 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: for 
+      - import:
+          dojo: python-programming~7745aa00
+          module: loops 
+          challenge: knowledgechecki 
   - import:
       dojo: cyber-security~59368da7
       module: osint
